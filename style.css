@@ -1,8 +1,9 @@
 body {
-    background: red !important;
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    background: radial-gradient(circle at top, #e8f0fe, #f5f7ff);
+    color: #202124;
 }
-
-
 
 /* HEADER */
 header {

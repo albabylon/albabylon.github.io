@@ -2,6 +2,19 @@ function openModal(project) {
     const modal = document.getElementById("modal");
     const body = document.getElementById("modal-body");
 
+    //video
+    if (project === "project_authservice") {
+        body.innerHTML = `
+      <h2>AuthService</h2>
+      <p>Web-сервис для лицензирования приложений, в частности Revit-лент</p>
+
+      <iframe width="100%" height="400"
+        src="https://www.youtube.com/embed/3v25TNjhp4g?si=kWHizgyhAwZBtoU7"
+        frameborder="0" allowfullscreen>
+      </iframe>
+    `;
+    }
+
     if (project === "project_probim") {
         body.innerHTML = `
       <h2>PROBIM.КАРКАС</h2>
@@ -84,13 +97,15 @@ function openModal(project) {
     `;
     }
 
-    if (project === "project2") {
-        body.innerHTML = `
-      <h2>Chat App</h2>
-      <p>Реалтайм чат с WebSocket.</p>
 
-      <img src="img1.png" style="width:100%; margin-bottom:10px;">
-      <img src="img2.png" style="width:100%;">
+    //img
+    if (project === "project_printer") {
+        body.innerHTML = `
+      <h2>PDF/DWG Печать</h2>
+      <p>Удобная pdf/dwg печать листов из Revit в один клик</p>
+
+      <img src="printer_1.png" style="width:100%; margin-bottom:10px;">
+      <img src="printer_2.png" style="width:100%;">
     `;
     }
 

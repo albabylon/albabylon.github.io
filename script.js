@@ -2,6 +2,18 @@ function openModal(project) {
     const modal = document.getElementById("modal");
     const body = document.getElementById("modal-body");
 
+    if (project === "project_probim") {
+        body.innerHTML = `
+      <h2>PROBIM.КАРКАС</h2>
+      <p>Создание деревянного каркаса для ИЖС на основании укрупненных элементов модели, а также создание и размещение видов и спецификаций на листах</p>
+
+      <iframe width="100%" height="400"
+        src="https://www.youtube.com/embed/622dNQg1xMU?si=RxUj4VYEnKb_pex3"
+        frameborder="0" allowfullscreen>
+      </iframe>
+    `;
+    }
+
     if (project === "project_bimstarter") {
         body.innerHTML = `
       <h2>Аналог BIM-STARTER</h2>

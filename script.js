@@ -3,6 +3,79 @@ function openModal(project) {
     const body = document.getElementById("modal-body");
 
     //video
+    if (project === "project_nl") {
+        body.innerHTML = `
+      <h2>Настройка лент</h2>
+      <p>Настройка отображения вкладок и блоков на ленте и настройка путей до json-настроек под плагины</p>
+
+      <iframe width="100%" height="400"
+        src="https://www.youtube.com/embed/3v25TNjhp4g?si=kWHizgyhAwZBtoU7"
+        frameborder="0" allowfullscreen>
+      </iframe>
+    `;
+    }
+
+    if (project === "project_pm") {
+        body.innerHTML = `
+      <h2>Проверить модель</h2>
+      <p>Плагин для проверки моделей на соответствие с ИТЗ. Написание проверок по разным разделам</p>
+
+      <iframe width="100%" height="400"
+        src="https://www.youtube.com/embed/3v25TNjhp4g?si=kWHizgyhAwZBtoU7"
+        frameborder="0" allowfullscreen>
+      </iframe>
+    `;
+    }
+
+    if (project === "project_lnnpnp") {
+        body.innerHTML = `
+      <h2>Линейные нагрузки/Нагрузки от полов/Нагрузки от помещений</h2>
+      <p>Задание нагрузок на модель КР на основании модели АР</p>
+
+      <iframe width="100%" height="400"
+        src="https://www.youtube.com/embed/3v25TNjhp4g?si=kWHizgyhAwZBtoU7"
+        frameborder="0" allowfullscreen>
+      </iframe>
+    `;
+    }
+
+    if (project === "project_oz") {
+        body.innerHTML = `
+      <h2>Отверстия по заданию</h2>
+      <p>Расставляет отверстия по заданию ИОС в модель КР</p>
+
+      <iframe width="100%" height="400"
+        src="https://www.youtube.com/embed/3v25TNjhp4g?si=kWHizgyhAwZBtoU7"
+        frameborder="0" allowfullscreen>
+      </iframe>
+    `;
+    }
+
+    if (project === "project_ze") {
+        body.innerHTML = `
+      <h2>Заполнить этаж</h2>
+      <p>Присваивает значение этажа элементам модели</p>
+
+      <iframe width="100%" height="400"
+        src="https://www.youtube.com/embed/3v25TNjhp4g?si=kWHizgyhAwZBtoU7"
+        frameborder="0" allowfullscreen>
+      </iframe>
+    `;
+    }
+
+    if (project === "project_op") {
+        body.innerHTML = `
+      <h2>Отметки проемов</h2>
+      <p>Вычисление отметок проемов для ведомости проемов</p>
+
+      <iframe width="100%" height="400"
+        src="https://www.youtube.com/embed/3v25TNjhp4g?si=kWHizgyhAwZBtoU7"
+        frameborder="0" allowfullscreen>
+      </iframe>
+    `;
+    }
+
+    //
     if (project === "project_authservice") {
         body.innerHTML = `
       <h2>AuthService</h2>

@@ -104,8 +104,10 @@ function openModal(project) {
       <h2>PDF/DWG Печать</h2>
       <p>Удобная pdf/dwg печать листов из Revit в один клик</p>
 
-      <img src="printer_1.png" style="width:100%; margin-bottom:10px;">
-      <img src="printer_2.png" style="width:100%;">
+        <div class="image-stack">
+          <img src="printer_1.png">
+          <img src="printer_2.png">
+        </div>
     `;
     }
 

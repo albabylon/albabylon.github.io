@@ -63,6 +63,18 @@ function openModal(project) {
     `;
     }
 
+    if (project === "project_oo") {
+        body.innerHTML = `
+      <h2>Обновить отделку</h2>
+      <p>Заполняет параметры отделки помещения на основании принадлежности к помещению</p>
+
+      <iframe width="100%" height="400"
+        src="https://www.youtube.com/embed/7FkzXB313cI?si=YFFRKs7CqW6PobHS"
+        frameborder="0" allowfullscreen>
+      </iframe>
+    `;
+    }
+
     if (project === "project_op") {
         body.innerHTML = `
       <h2>Отметки проемов</h2>

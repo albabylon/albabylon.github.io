@@ -9,7 +9,7 @@ function openModal(project) {
       <p>Настройка отображения вкладок и блоков на ленте и настройка путей до json-настроек под плагины</p>
 
       <iframe width="100%" height="400"
-        src="https://www.youtube.com/embed/3v25TNjhp4g?si=kWHizgyhAwZBtoU7"
+        src="https://www.youtube.com/embed/n4nBzC4wMoY?si=7hwzFdPpaolXfc7f"
         frameborder="0" allowfullscreen>
       </iframe>
     `;
@@ -21,7 +21,7 @@ function openModal(project) {
       <p>Плагин для проверки моделей на соответствие с ИТЗ. Написание проверок по разным разделам</p>
 
       <iframe width="100%" height="400"
-        src="https://www.youtube.com/embed/3v25TNjhp4g?si=kWHizgyhAwZBtoU7"
+        src="https://www.youtube.com/embed/aEKXdMOebJQ?si=XbZlMXHVdiXmoRT0"
         frameborder="0" allowfullscreen>
       </iframe>
     `;
@@ -33,7 +33,7 @@ function openModal(project) {
       <p>Задание нагрузок на модель КР на основании модели АР</p>
 
       <iframe width="100%" height="400"
-        src="https://www.youtube.com/embed/3v25TNjhp4g?si=kWHizgyhAwZBtoU7"
+        src="https://www.youtube.com/embed/bNsAeZPLojs?si=y3tlDmJZGWlbAp8a"
         frameborder="0" allowfullscreen>
       </iframe>
     `;
@@ -45,7 +45,7 @@ function openModal(project) {
       <p>Расставляет отверстия по заданию ИОС в модель КР</p>
 
       <iframe width="100%" height="400"
-        src="https://www.youtube.com/embed/3v25TNjhp4g?si=kWHizgyhAwZBtoU7"
+        src="https://www.youtube.com/embed/vmG4fuxLe6o?si=ec88-O96C4B1dIKI"
         frameborder="0" allowfullscreen>
       </iframe>
     `;
@@ -57,7 +57,7 @@ function openModal(project) {
       <p>Присваивает значение этажа элементам модели</p>
 
       <iframe width="100%" height="400"
-        src="https://www.youtube.com/embed/3v25TNjhp4g?si=kWHizgyhAwZBtoU7"
+        src="https://www.youtube.com/embed/AnUzfFlD9n8?si=7L9Fl7SchwR7eFFN"
         frameborder="0" allowfullscreen>
       </iframe>
     `;
@@ -69,7 +69,31 @@ function openModal(project) {
       <p>Вычисление отметок проемов для ведомости проемов</p>
 
       <iframe width="100%" height="400"
-        src="https://www.youtube.com/embed/3v25TNjhp4g?si=kWHizgyhAwZBtoU7"
+        src="https://www.youtube.com/embed/15CfHZdm910?si=oTp6_Py89ETzpm57"
+        frameborder="0" allowfullscreen>
+      </iframe>
+    `;
+    }
+
+    if (project === "project_rp") {
+        body.innerHTML = `
+      <h2>Разместить перемычки</h2>
+      <p>Размещение перемычек над проемами с возможностью создания типоразмеров перемычек</p>
+
+      <iframe width="100%" height="400"
+        src="https://www.youtube.com/embed/1pk8mUYFEv8?si=lZzrSpM9Nn5DpQdX"
+        frameborder="0" allowfullscreen>
+      </iframe>
+    `;
+    }
+
+    if (project === "project_r") {
+        body.innerHTML = `
+      <h2>Развертки</h2>
+      <p>Создание разверток помещения и размещение их на листе</p>
+
+      <iframe width="100%" height="400"
+        src="https://www.youtube.com/embed/Do05_z5XfpM?si=Vgcyd9ZSIC0R0UyB"
         frameborder="0" allowfullscreen>
       </iframe>
     `;
